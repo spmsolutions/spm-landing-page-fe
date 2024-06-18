@@ -1,0 +1,124 @@
+/* Chatbot.css */
+.options-widget {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: auto;
+	/* flex-direction: column; */
+}
+
+.option-button {
+	background-color: #cccdcf;
+	color: #1a1f25;
+	border: none;
+	padding: 6px 12px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	mimn-width: 100px;
+}
+
+.option-button:hover {
+	background-color: #274d5e;
+}
+
+.chat-toggle {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border: none;
+	border-radius: 12px;
+	width: 150px;
+	height: 50px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #9e8352;
+	color: #fffff0;
+	z-index: 1001;
+}
+
+.chat-window {
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	width: 300px;
+	height: 500px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 0;
+	overflow-y: scroll;
+	z-index: 1000;
+}
+
+/* Add this style */
+#react-chatbot {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+	display: block;
+	background-color: transparent;
+}
+
+/* Add this new class */
+#react-chatbot.closed {
+	display: none;
+}
+
+.chat-messages {
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.chat-messages p {
+	margin: 0;
+	padding: 5px 0;
+}
+
+.chat-messages .user {
+	text-align: right;
+	color: blue;
+}
+
+.chat-messages .assistant {
+	text-align: left;
+	color: green;
+}
+
+.react-chatbot-kit-chat-input {
+	background-color: white;
+	color: #2a0206 !important;
+}
+
+.react-chatbot-kit-chat-container {
+	width: 100%;
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+	background-color: #8c0813;
+	color: #fffff0;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+	color: #fffff0;
+}
+
+.react-chatbot-kit-chat-btn-send {
+	background-color: #345541 !important;
+	color: #fffff0;
+}
+
+.react-chatbot-kit-chat-header,
+.react-chatbot-kit-user-chat-message,
+.react-chatbot-kit-user-avatar-container {
+	background-color: #f5f9ff;
+	color: #345541;
+	.react-chatbot-kit-user-avatar-icon {
+		fill: #345541;
+	}
+}
+
+.react-chatbot-kit-user-chat-message-arrow {
+	border-left: 8px solid #f5f9ff;
+}

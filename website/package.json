@@ -1,0 +1,71 @@
+{
+	"name": "@eightshift/docs",
+	"version": "9.1.0",
+	"description": "A documentation website for Eightshift open source projects.",
+	"author": {
+		"name": "SPM Solutions team",
+		"email": "team@eightshift.com",
+		"url": "https://eightshift.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/infinum/eightshift-docs.git"
+	},
+	"keywords": [
+		"frontend",
+		"scss",
+		"mixin",
+		"js",
+		"utility",
+		"module",
+		"WordPress"
+	],
+	"bugs": {
+		"url": "https://github.com/infinum/eightshift-docs/issues"
+	},
+	"scripts": {
+		"docusaurus": "docusaurus",
+		"start": "docusaurus start",
+		"build": "docusaurus build",
+		"deploy": "docusaurus deploy",
+		"serve": "docusaurus serve",
+		"clear": "docusaurus clear"
+	},
+	"dependencies": {
+		"@docusaurus/core": "^3.4.0",
+		"@docusaurus/preset-classic": "^3.4.0",
+		"@infinum/docusaurus-theme": "^0.5.0",
+		"@mdx-js/react": "^3.0.1",
+		"@wp-playground/client": "^0.7.20",
+		"ajv-keywords": "^3.5.2",
+		"clsx": "^2.1.1",
+		"es-text-loader": "file:plugins/es-text-loader",
+		"prism-react-renderer": "^2.3.1",
+		"react": "^18.3.1",
+		"react-chatbot-kit": "^2.2.2",
+		"react-dom": "^18.3.1",
+		"react-markdown": "^9.0.1",
+		"react-scripts": "^3.0.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"raw-loader": "^4.0.2"
+	},
+	"overrides": {
+		"jiti": "1.21.0"
+	},
+	"resolutions": {
+		"ajv": "8.16.0"
+	}
+}
