@@ -27,3 +27,10 @@
 		margin-left: 4%;
 	}
 }
+
+.image-style {
+	width: 100%; /* Adjust image width to fit the container */
+	height: auto; /* Maintain aspect ratio */
+	margin-top: 16px; /* Space between the image and the text */
+	border-radius: 20px;
+}

@@ -84,7 +84,8 @@ export default function Home() {
       <div style={{ paddingTop: "120px", backgroundColor: '#F5F9FF', color: '#5B77AF' }}>
         <ImageAndText
           title='SEO that CONVERTS'
-          imageUrl='/img/homepage/meh2.jpg'
+          imageUrl='/spm-landing-page-fe/img/homepage/meh2.jpg'
+alt="SPM SEO"
           gray
         >
           SPM Solutions makes SEO that CONVERTS painless.
@@ -155,22 +156,22 @@ export default function Home() {
           <div style={gridItemStyle}>
             <h3>1. Discovery</h3>
             <h5>Understanding Client Needs and Goals</h5>
-            <img src="/img/spm/discovery.jpg" alt="Discovery" style={imageStyle} />
+            <img src="/spm-landing-page-fe/img/spm/discovery.jpg" alt="Discovery" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3>2. Strategize</h3>
             <h5>Crafting Customized SEO Plans</h5>
-            <img src="/img/spm/developstrategy.jpg" alt="Strategy Development" style={imageStyle} />
+            <img src="/spm-landing-page-fe/img/spm/developstrategy.jpg" alt="Strategy Development" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3>3. Implementation</h3>
             <h5>Executing the Custom SEO Strategy</h5>
-            <img src="/img/spm/implementation.jpg" alt="Implementation" style={imageStyle} />
+            <img src="/spm-landing-page-fe/img/spm/implementation.jpg" alt="Implementation" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3>4. Monitor & Report</h3>
             <h5>Regular Updates & Performance Tracking</h5>
-            <img src="/img/spm/reportmonitor.jpg" alt="Monitoring & Reporting" style={imageStyle} />
+            <img src="/spm-landing-page-fe/img/spm/reportmonitor.jpg" alt="Monitoring & Reporting" className='image-style' />
           </div>
         </div>
       </div>
