@@ -1,0 +1,29 @@
+/* responsive.css */
+.grid-container {
+	display: grid;
+	gap: 16px;
+	padding: 60px;
+	color: #345541;
+}
+
+@media (min-width: 768px) {
+	.grid-container {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.content-width {
+		width: 50%;
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 767px) {
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+
+	.content-width {
+		width: 90%;
+		margin-left: 4%;
+	}
+}
