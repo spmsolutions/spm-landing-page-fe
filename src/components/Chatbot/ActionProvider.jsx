@@ -48,7 +48,7 @@ class ActionProvider {
 
       // const url = process.env.REACT_APP_BACKEND_URL
 
-      const response = await sendMessageToApi('http://localhost:5001', message);
+      const response = await sendMessageToApi('https://spm-landing-be-production.up.railway.app', message);
       // console.log("API Response:", response);
 
       if (response) {

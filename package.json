@@ -1,15 +1,16 @@
 {
-	"name": "@eightshift/docs",
+	"name": "@spmsolutions/website",
 	"version": "9.1.0",
-	"description": "A documentation website for Eightshift open source projects.",
+	"homepage": "https://spmsolutions.github.io/spm-landing-page-fe",
+	"description": "A landing page for SPM Solutions.",
 	"author": {
 		"name": "SPM Solutions team",
-		"email": "team@eightshift.com",
-		"url": "https://eightshift.com/"
+		"email": "ben@spmsolutions.business",
+		"url": "https://spmsolutions.github.io/spm-landing-page-fe"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/infinum/eightshift-docs.git"
+		"url": "git+https://github.com/spmsolutions/spm-landing-page-fe"
 	},
 	"keywords": [
 		"frontend",
@@ -21,15 +22,16 @@
 		"WordPress"
 	],
 	"bugs": {
-		"url": "https://github.com/infinum/eightshift-docs/issues"
+		"url": "https://github.com/spmsolutions/spm-landing-page-fe/issues"
 	},
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
 		"build": "docusaurus build",
-		"deploy": "docusaurus deploy",
+		"deploy": "gh-pages -d build",
 		"serve": "docusaurus serve",
-		"clear": "docusaurus clear"
+		"clear": "docusaurus clear",
+		"predeploy": "npm run build"
 	},
 	"dependencies": {
 		"@docusaurus/core": "^3.4.0",
@@ -60,6 +62,7 @@
 		]
 	},
 	"devDependencies": {
+		"gh-pages": "^6.1.1",
 		"raw-loader": "^4.0.2"
 	},
 	"overrides": {

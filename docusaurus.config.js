@@ -5,12 +5,13 @@ const darkTheme = themes.dracula;
 module.exports = {
 	title: 'SPM Solutions',
 	tagline: 'All the tools you need to rank higher on search engines',
-	url: 'https://eightshift.com',
+	url: 'https://spmsolutions.github.io',
 	baseUrl: '/',
 	favicon: '/img/favicon.png',
-	organizationName: 'spm solutions',
-	projectName: 'spm-solutions-landing-page',
+	organizationName: 'spmsolutions',
+	projectName: 'spm-landing-page-fe',
 	staticDirectories: ['static'],
+	trailingSlash: false,
 	scripts: [
 		{
 			src: 'https://buttons.github.io/buttons.js',
