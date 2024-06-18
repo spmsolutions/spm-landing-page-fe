@@ -6,7 +6,7 @@ module.exports = {
 	title: 'SPM Solutions',
 	tagline: 'All the tools you need to rank higher on search engines',
 	url: 'https://spmsolutions.github.io',
-	baseUrl: '/',
+	baseUrl: '/spm-landing-page-fe',
 	favicon: '/img/favicon.png',
 	organizationName: 'spmsolutions',
 	projectName: 'spm-landing-page-fe',
