@@ -170,7 +170,7 @@ export default function Home() {
             <img src="/img/spm/implementation.jpg" alt="Implementation" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
-            <h3>4. Monitor & Report</h5>
+            <h3>4. Monitor & Report</h3>
             <h5>Regular Updates & Performance Tracking</h5>
             <img src="/img/spm/reportmonitor.jpg" alt="Monitoring & Reporting" style={imageStyle} />
           </div>
