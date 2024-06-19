@@ -115,7 +115,7 @@
 	background-color: #f5f9ff;
 	color: #345541;
 	.react-chatbot-kit-user-avatar-icon {
-		fill: #345541;
+		fill: #345541 !important;
 	}
 }
 
