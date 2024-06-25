@@ -50,12 +50,12 @@ module.exports = {
 				// 	label: 'Playground',
 				// 	position: 'right',
 				// },
-				{
-					to: '/blog',
-					activeBasePath: 'blog',
-					label: 'Blog',
-					position: 'right',
-				},
+				// {
+				// 	to: '/blog',
+				// 	activeBasePath: 'blog',
+				// 	label: 'Blog',
+				// 	position: 'right',
+				// },
 				// {
 				// 	to: '/showcase',
 				// 	activeBasePath: 'showcase',
