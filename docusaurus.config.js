@@ -70,33 +70,13 @@ module.exports = {
 					title: 'Community',
 					items: [
 						{
-							label: 'Facebook',
-							href: 'https://facebook.com/infinumcom',
-							icon: 'facebook',
-						},
-						{
-							label: 'Instagram',
-							href: 'https://instagram.com/infinumcom/',
-							icon: 'instagram',
-						},
-						{
 							label: 'Twitter',
-							href: 'https://twitter.com/infinum',
+							href: 'https://twitter.com',
 							icon: 'twitter',
 						},
 						{
-							label: 'Clutch',
-							href: 'https://clutch.co/profile/infinum',
-							icon: 'clutch',
-						},
-						{
-							label: 'Dribbble',
-							href: 'https://dribbble.com/infinum',
-							icon: 'dribbble',
-						},
-						{
 							label: 'LinkedIn',
-							href: 'https://linkedin.com/company/infinum/',
+							href: 'https://linkedin.com/',
 							icon: 'linkedin',
 						},
 					],
@@ -104,13 +84,13 @@ module.exports = {
 			],
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
-		algolia: {
-			appId: 'CWB1S6U3C4',
-			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'infinum_eightshift',
-			startUrls: ['https://eightshift.com', 'https://eightshift.com/docs', 'https://eightshift.com/forms'],
-			contextualSearch: false,
-		},
+		// algolia: {
+		// 	appId: 'CWB1S6U3C4',
+		// 	apiKey: 'cbae3fc769aee256328548eff1e91c1c',
+		// 	indexName: 'infinum_eightshift',
+		// 	startUrls: ['https://eightshift.com', 'https://eightshift.com/docs', 'https://eightshift.com/forms'],
+		// 	contextualSearch: false,
+		// },
 		prism: {
 			theme: darkTheme,
 			additionalLanguages: ['php', 'scss', 'css'],
