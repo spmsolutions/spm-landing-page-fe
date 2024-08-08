@@ -5,7 +5,7 @@ const darkTheme = themes.dracula;
 module.exports = {
 	title: 'SPM Solutions',
 	tagline: 'All the tools you need to rank higher on search engines',
-	url: 'http://spm-solution.com/',
+	url: 'https://spm-solution.com/',
 	baseUrl: '/',
 	favicon: '/img/favicon.png',
 	organizationName: 'spmsolutions',
