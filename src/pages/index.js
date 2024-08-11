@@ -81,7 +81,7 @@ export default function Home() {
       <div style={{ paddingTop: "120px", backgroundColor: '#F5F9FF', color: '#5B77AF' }}>
         <ImageAndText
           title='Dominate Online Presence'
-          imageUrl='/spm-landing-page-fe/img/homepage/seo-image.jpg'
+          imageUrl='img/homepage/seo-image.jpg'
 alt="SPM SEO"
           gray
         >
@@ -164,25 +164,25 @@ alt="SPM SEO"
             <h3 style={{marginBottom: '10px'}}>1. Discovery</h3>
             <h5>Customer, Competitor, and Brand Analysis</h5>
             <h5>Current SEO status and analysis</h5>
-            <img src="/spm-landing-page-fe/img/spm/discovery.jpg" alt="Discovery" style={imageStyle} />
+            <img src="img/spm/discovery.jpg" alt="Discovery" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3 style={{marginBottom: '10px'}}>2. Strategize</h3>
             <h5>SEO and Quality Content Generation Strategy</h5>
             <h5>Focus on Clear Communication Documentation</h5>
-            <img src="/spm-landing-page-fe/img/spm/developstrategy.jpg" alt="Strategy Development" style={imageStyle} />
+            <img src="img/spm/developstrategy.jpg" alt="Strategy Development" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3 style={{marginBottom: '10px'}}>3. Implement</h3>
             <h5>Website & Copy Development</h5>
             <h5>Content Generation Assistance </h5>
-            <img src="/spm-landing-page-fe/img/spm/implementation.jpg" alt="Implementation" style={imageStyle} />
+            <img src="img/spm/implementation.jpg" alt="Implementation" style={imageStyle} />
           </div>
           <div style={gridItemStyle}>
             <h3 style={{marginBottom: '10px'}}>4. Maintain</h3>
             <h5>Paid Advertisement</h5>
             <h5>Continuous SEO Data Analysis</h5>
-            <img src="/spm-landing-page-fe/img/spm/reportmonitor.jpg" alt="Monitoring & Reporting" className='image-style' />
+            <img src="img/spm/reportmonitor.jpg" alt="Monitoring & Reporting" className='image-style' />
           </div>
         </div>
       </div>
