@@ -64,7 +64,7 @@ const SEOChecklist = () => {
                     name="NAME"
                     className="nameInput"
                     id="mce-NAME"
-                    placeholder="Firstname"
+                    placeholder="Name"
                     required
                   />
                   <input

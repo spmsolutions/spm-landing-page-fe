@@ -16,16 +16,13 @@
 
 .emailCapture,
 .footer {
-	padding: 50px 0;
+	padding: 50px;
 	text-align: center;
+	background-color: rgba(52, 85, 65, 0.2);
 }
 
 .benefitsSection {
 	padding: 0;
-}
-
-.emailCapture {
-	background-color: rgba(52, 85, 65, 0.2);
 }
 
 .container {
@@ -75,7 +72,16 @@
 	margin: 40px 0;
 }
 
+@media (max-width: 1024px) {
+	.ebook-image {
+		width: 80%;
+	}
+}
+
 @media (max-width: 768px) {
+	.emailCapture {
+		padding: 10px;
+	}
 	.container {
 		width: 100%;
 	}
@@ -155,7 +161,7 @@
 }
 
 .submitButton {
-	max-width: 200px;
+	width: 200px;
 	padding: 10px;
 	background-color: #9e8352;
 	color: white;
@@ -213,11 +219,6 @@
 		#mc_embed_signup_scroll {
 			flex-direction: column; /* Switch to column layout */
 			align-items: center; /* Center the elements in the column layout */
-		}
-
-		.submitButton {
-			width: 100%;
-			min-width: 320px;
 		}
 	}
 }
