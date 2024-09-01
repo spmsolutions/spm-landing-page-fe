@@ -1,0 +1,233 @@
+.hero {
+	padding: 36px 0;
+	color: #345541;
+	background-color: rgba(52, 85, 65, 0.2);
+	text-align: center;
+}
+
+.ctaButton {
+	background: #ff5722;
+	padding: 10px 20px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.emailCapture,
+.footer {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.benefitsSection {
+	padding: 0;
+}
+
+.emailCapture {
+	background-color: rgba(52, 85, 65, 0.2);
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.benefits-container {
+	display: flex;
+	background-color: rgba(52, 85, 65, 0.9);
+	color: white;
+	flex-direction: row;
+}
+
+.ebook-image-div {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ebook-image {
+	width: 40%;
+	height: 40%;
+	margin: 32px;
+}
+
+.benefits-div {
+	width: 50%;
+	padding: 36px 36px 36px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+
+.benefits-div h2,
+.benefits-div p,
+.benefits-div ul {
+	width: 100%;
+	text-align: left;
+}
+
+.benefits-div h2 {
+	margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	.benefits-container {
+		flex-direction: column;
+	}
+	.ebook-image-div {
+		width: 100%;
+	}
+	.ebook-image {
+		width: 80%;
+	}
+	.benefits-div {
+		width: 100%;
+		padding: 28px;
+	}
+	.benefits-div h2 {
+		margin: 0;
+	}
+	.benefits-div p {
+		margin-top: 20px;
+	}
+}
+
+.email-container {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 48px;
+}
+
+.custom-list {
+	list-style: none;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 3rem;
+}
+
+.custom-list li {
+	position: relative;
+	padding-left: 32px;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+.custom-list li::before {
+	content: "\2713"; /* Unicode for checkmark */
+	position: absolute;
+	left: 0;
+	top: 10px;
+	color: orange; /* Checkmark color */
+	font-weight: bold;
+	font-size: 20px; /* Adjusts size of the checkmark */
+	line-height: 1; /* Aligns checkmark with text */
+}
+
+#mc_embed_signup_scroll {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+}
+
+.nameInput,
+.emailInput {
+	border: 1px solid #ccc; /* Adds border around inputs */
+	padding: 10px;
+	width: calc(
+		50% - 10px
+	); /* Each input takes up half of the remaining space minus margin */
+	box-sizing: border-box; /* Ensures padding and border are included in the width */
+	/* margin-right: 10px; Adds space between inputs */
+	border-radius: 8px;
+}
+
+.emailInput {
+	margin-right: 0;
+}
+
+.submitButton {
+	max-width: 200px;
+	padding: 10px;
+	background-color: #9e8352;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.clear {
+	flex-shrink: 0;
+}
+
+.tos-checkbox {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: black;
+}
+
+.tos-checkbox input {
+	margin-right: 10px;
+}
+
+.tos-checkbox a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.tos-checkbox a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	#mc_embed_signup_scroll {
+		flex-direction: column; /* Switch to column layout */
+		align-items: center; /* Center the elements in the column layout */
+	}
+
+	.nameInput,
+	.emailInput {
+		width: 100%; /* Each element takes up 60% of the width */
+		margin-right: 0px; /* Remove margin on smaller screens */
+		margin-bottom: 10px; /* Add space between elements */
+	}
+
+	.email-container {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin: 0 32px;
+	}
+
+	@media (max-width: 768px) {
+		#mc_embed_signup_scroll {
+			flex-direction: column; /* Switch to column layout */
+			align-items: center; /* Center the elements in the column layout */
+		}
+
+		.submitButton {
+			width: 100%;
+			min-width: 320px;
+		}
+	}
+}
+
+.footer {
+	background-color: #333;
+	color: white;
+}
+
+.footer a {
+	color: #ff5722;
+	text-decoration: none;
+}
