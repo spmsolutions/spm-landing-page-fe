@@ -36,6 +36,7 @@
 	"dependencies": {
 		"@docusaurus/core": "^3.4.0",
 		"@docusaurus/preset-classic": "^3.4.0",
+		"@emailjs/browser": "^4.4.1",
 		"@fortawesome/fontawesome-svg-core": "^6.5.2",
 		"@fortawesome/free-solid-svg-icons": "^6.5.2",
 		"@fortawesome/react-fontawesome": "^0.2.2",
@@ -44,6 +45,8 @@
 		"@wp-playground/client": "^0.7.20",
 		"ajv-keywords": "^3.5.2",
 		"clsx": "^2.1.1",
+		"docusaurus2-dotenv": "^1.4.0",
+		"emailjs": "^4.0.3",
 		"es-text-loader": "file:plugins/es-text-loader",
 		"prism-react-renderer": "^2.3.1",
 		"react": "^18.3.1",
@@ -65,6 +68,7 @@
 		]
 	},
 	"devDependencies": {
+		"dotenv": "^16.4.5",
 		"gh-pages": "^6.1.1",
 		"raw-loader": "^4.0.2"
 	},

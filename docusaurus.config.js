@@ -1,5 +1,7 @@
 const {themes} = require('prism-react-renderer');
 
+require('dotenv').config({ path: '.env'})
+
 const darkTheme = themes.dracula;
 
 module.exports = {
@@ -51,11 +53,29 @@ module.exports = {
 				// 	position: 'right',
 				// },
 				// {
-				// 	to: '/blog',
-				// 	activeBasePath: 'blog',
-				// 	label: 'Blog',
-				// 	position: 'right',
+				// 	to: '#about-us',
+				// 	activeBasePath: 'about',
+				// 	label: 'About',
+				// 	position: 'right'
 				// },
+				// {
+				// 	to: '#services',
+				// 	activeBasePath: 'services',
+				// 	label: 'Services',
+				// 	position: 'right'
+				// },
+				// {
+				// 	to: '#contact-us',
+				// 	activeBasePath: 'contact',
+				// 	label: 'Contact',
+				// 	position: 'right'
+				// },
+				{
+					to: '/blog',
+					activeBasePath: 'blog',
+					label: 'Blog',
+					position: 'right',
+				},
 				// {
 				// 	to: '/showcase',
 				// 	activeBasePath: 'showcase',
@@ -84,13 +104,13 @@ module.exports = {
 			],
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
-		// algolia: {
-		// 	appId: 'CWB1S6U3C4',
-		// 	apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-		// 	indexName: 'infinum_eightshift',
-		// 	startUrls: ['https://eightshift.com', 'https://eightshift.com/docs', 'https://eightshift.com/forms'],
-		// 	contextualSearch: false,
-		// },
+		algolia: {
+			appId: 'CWB1S6U3C4',
+			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
+			indexName: 'infinum_eightshift',
+			startUrls: ['http://localhost:3000', 'http://localhost:3000/blog'],
+			contextualSearch: false,
+		},
 		prism: {
 			theme: darkTheme,
 			additionalLanguages: ['php', 'scss', 'css'],
@@ -105,7 +125,9 @@ module.exports = {
 				autoCollapseCategories: true,
 			}
 		},
-		trailingSlash: false
+		trailingSlash: false,
+		onBrokenLinks: 'ignore',
+		onBrokenMarkdownLinks: 'ignore'
 	},
 	presets: [
 		[
@@ -149,6 +171,12 @@ module.exports = {
 				sidebarPath: require.resolve('./sidebars-forms.js'),
 			},
 		],
+		[
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
 		'es-text-loader',
 	],
 	customFields: {
