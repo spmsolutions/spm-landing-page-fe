@@ -2,7 +2,7 @@
 title: Tips & useful features
 description: Various tips and useful features for your project included in Eightshift DevKit.
 slug: tips-useful-features
-authors: obradovic
+authors: sandra
 date: 2024-02-29
 tags: [eightshift, boilerplate, blocks, plugins, colors, images, classes]
 hide_table_of_contents: false

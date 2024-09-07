@@ -6,6 +6,37 @@
 	color: #345541;
 }
 
+.blog-ebook-image-div {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	overflow: hidden;
+}
+
+.blog-ebook-image {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+	background-color: rgba(52, 85, 65, 0.9);
+}
+
+.blog-submitButton {
+	width: 200px;
+	padding: 10px;
+	background-color: #345541;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.image-style {
+	width: 100%; /* Adjust image width to fit the container */
+	height: auto; /* Maintain aspect ratio */
+	margin-top: 16px; /* Space between the image and the text */
+	border-radius: 20px;
+}
+
 @media (min-width: 768px) {
 	.grid-container {
 		grid-template-columns: repeat(4, 1fr);
@@ -27,11 +58,13 @@
 		width: 90%;
 		margin-left: 4%;
 	}
-}
 
-.image-style {
-	width: 100%; /* Adjust image width to fit the container */
-	height: auto; /* Maintain aspect ratio */
-	margin-top: 16px; /* Space between the image and the text */
-	border-radius: 20px;
+	.blog-ebook-image-div {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blog-ebook-image {
+		margin-bottom: 20px;
+	}
 }

@@ -52,24 +52,24 @@ module.exports = {
 				// 	label: 'Playground',
 				// 	position: 'right',
 				// },
-				// {
-				// 	to: '#about-us',
-				// 	activeBasePath: 'about',
-				// 	label: 'About',
-				// 	position: 'right'
-				// },
-				// {
-				// 	to: '#services',
-				// 	activeBasePath: 'services',
-				// 	label: 'Services',
-				// 	position: 'right'
-				// },
-				// {
-				// 	to: '#contact-us',
-				// 	activeBasePath: 'contact',
-				// 	label: 'Contact',
-				// 	position: 'right'
-				// },
+				{
+					to: '/#about-us',
+					activeBasePath: 'about',
+					label: 'About',
+					position: 'right'
+				},
+				{
+					to: '/#services',
+					activeBasePath: 'services',
+					label: 'Services',
+					position: 'right'
+				},
+				{
+					to: '/#contact-us',
+					activeBasePath: 'contact',
+					label: 'Contact',
+					position: 'right'
+				},
 				{
 					to: '/blog',
 					activeBasePath: 'blog',
@@ -120,11 +120,7 @@ module.exports = {
 			disableSwitch: true,
 			respectPrefersColorScheme: false,
 		},
-		docs: {
-			sidebar: {
-				autoCollapseCategories: true,
-			}
-		},
+		docs: {},
 		trailingSlash: false,
 		onBrokenLinks: 'ignore',
 		onBrokenMarkdownLinks: 'ignore'
@@ -133,10 +129,7 @@ module.exports = {
 		[
 			'@docusaurus/preset-classic',
 			{
-				docs: {
-					sidebarPath: require.resolve('./sidebars.js'),
-					sidebarCollapsible: true,
-				},
+				docs: false,
 				gtag: {
 					trackingID: 'GTM-P5GG5DH',
 					anonymizeIP: true,
@@ -162,15 +155,6 @@ module.exports = {
 		],
 	],
 	plugins: [
-		[
-			'@docusaurus/plugin-content-docs',
-			{
-				id: 'forms',
-				path: 'forms',
-				routeBasePath: 'forms',
-				sidebarPath: require.resolve('./sidebars-forms.js'),
-			},
-		],
 		[
       "docusaurus2-dotenv",
       {

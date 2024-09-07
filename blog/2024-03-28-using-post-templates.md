@@ -2,18 +2,19 @@
 title: Using post templates
 description: Explaining post templates and how to use them.
 slug: using-post-templates
-authors: obradovic
+authors: sandra
 date: 2024-03-28
 tags: [eightshift, boilerplate, templates]
 hide_table_of_contents: false
+image: /img/homepage/seo-image.jpg
 ---
 
 Sometimes you need your posts to follow a specific structure, or you simply want to provide a good starting point for the editors. This blog post will cover what post templates are, how to set them up, and what options they offer.
 <!--truncate-->
 
 A simple use case of post templates can be a review or a testimonial. For example, if you want each review to be a separate post and to use a single Quote block.
-
-If you don’t have the new post type registered, you can refer to one of the previous blog posts which explains how to [register Custom Post Types](/blog/using-cpts-and-taxonomies). Once the new post type is registered, you can set the `template_lock` argument.
+<!-- 
+If you don’t have the new post type registered, you can refer to one of the previous blog posts which explains how to [register Custom Post Types](/blog/using-cpts-and-taxonomies). Once the new post type is registered, you can set the `template_lock` argument. -->
 
 ## Template locking options
 
