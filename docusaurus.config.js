@@ -1,5 +1,7 @@
 const {themes} = require('prism-react-renderer');
 
+require('dotenv').config({ path: '.env'})
+
 const darkTheme = themes.dracula;
 
 module.exports = {
@@ -51,11 +53,29 @@ module.exports = {
 				// 	position: 'right',
 				// },
 				// {
-				// 	to: '/blog',
-				// 	activeBasePath: 'blog',
-				// 	label: 'Blog',
-				// 	position: 'right',
+				// 	to: '#about-us',
+				// 	activeBasePath: 'about',
+				// 	label: 'About',
+				// 	position: 'right'
 				// },
+				// {
+				// 	to: '#services',
+				// 	activeBasePath: 'services',
+				// 	label: 'Services',
+				// 	position: 'right'
+				// },
+				// {
+				// 	to: '#contact-us',
+				// 	activeBasePath: 'contact',
+				// 	label: 'Contact',
+				// 	position: 'right'
+				// },
+				{
+					to: '/blog',
+					activeBasePath: 'blog',
+					label: 'Blog',
+					position: 'right',
+				},
 				// {
 				// 	to: '/showcase',
 				// 	activeBasePath: 'showcase',
@@ -105,7 +125,9 @@ module.exports = {
 				autoCollapseCategories: true,
 			}
 		},
-		trailingSlash: false
+		trailingSlash: false,
+		onBrokenLinks: 'ignore',
+		onBrokenMarkdownLinks: 'ignore'
 	},
 	presets: [
 		[
@@ -149,6 +171,12 @@ module.exports = {
 				sidebarPath: require.resolve('./sidebars-forms.js'),
 			},
 		],
+		[
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
 		'es-text-loader',
 	],
 	customFields: {

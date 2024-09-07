@@ -4,6 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import { Hero, ImageAndText, CtaCards, TextCards, ShowcaseCard, IconLinkCards, FeatureShowcase, CtaImageButton, icons } from '@infinum/docusaurus-theme';
 import Chatbot from '../components/Chatbot';
+import ContactForm from '../components/ContactForm';
 import '../theme/responsive.css';
 
 export default function Home() {
@@ -61,7 +62,9 @@ export default function Home() {
             SPM Solutions drives new customers for manufacturing and processing companies.
             </p>
             <a
-              href="#get-started"
+              href="https://calendly.com/todd-spm-solution"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 padding: '1rem 2rem',
                 fontSize: '1.2rem',
@@ -78,7 +81,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div style={{ paddingTop: "120px", backgroundColor: '#F5F9FF', color: '#5B77AF' }}>
+      <div style={{ paddingTop: "120px", backgroundColor: '#F5F9FF', color: '#5B77AF' }} id='about-us'>
         <ImageAndText
           title='Dominate Online Presence'
           imageUrl='img/homepage/seo-image.jpg'
@@ -126,7 +129,7 @@ alt="SPM SEO"
           ]}
         />
       </div>
-      <div id='get-started' style={{ color: '#5B77AF', backgroundColor: '#F5F9FF' }}>
+      <div id='services' style={{ color: '#5B77AF', backgroundColor: '#F5F9FF' }}>
         <TextCards
           title='Services'
           subtitle="We have standard programs to enhance our partner’s online marketing presence. 
@@ -186,6 +189,7 @@ alt="SPM SEO"
           </div>
         </div>
       </div>
+      <ContactForm/>
       <Chatbot />
     </Layout>
   );
