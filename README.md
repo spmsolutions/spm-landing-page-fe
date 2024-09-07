@@ -1,12 +1,10 @@
 ![image](https://repository-images.githubusercontent.com/236449101/e89c31b2-a180-4258-9f67-608b4050c484)
 
-# Eightshift Docs
-
-A documentation website for Eightshift open source projects.
+# SPM-Soltuin Docs
 
 Visit:
 
-[https://eightshift.com/](https://eightshift.com/).
+[https://spm-contact.com/](https://spm-contact.com/).
 
 To run docs locally:
 
@@ -17,13 +15,3 @@ To run docs locally:
 
 Deployment is done through GitHub Actions by pushing the code to the main branch.
 
-## Who do I talk to?
-
-If you have any questions or problems, please [open an issue](https://github.com/infinum/eightshift-docs/issues) on github and we will do our best to give you a timely answer.
-
-## Maintainers
-Eightshift Docs is maintained and sponsored by
-[Eightshift](https://eightshift.com) and [Infinum](https://infinum.com).
-
-## License
-Eightshift Docs &copy;2021 [Eightshift](https://eightshift.com) and [Infinum](https://infinum.com). It is free software, and may be redistributed under the terms specified in the LICENSE file.

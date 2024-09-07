@@ -141,8 +141,8 @@ module.exports = {
 					],
 				},
 				blog: {
-					blogTitle: 'Tutorials and articles about Eightshift development kit',
-					blogDescription: 'Tutorials and articles about Eightshift development kit',
+					blogTitle: 'Tutorials and articles about effective SEO and ultimate SEO practices, offered by spm-solution',
+					blogDescription: 'Tutorials and articles about SEO, converting searches to sales, and services offered by spm-soltion',
 					blogSidebarTitle: 'Latest posts',
 					showReadingTime: true,
 					postsPerPage: 9,
