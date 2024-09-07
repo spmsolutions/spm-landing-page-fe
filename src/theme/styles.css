@@ -46,3 +46,38 @@ progress[value]::-moz-progress-bar {
 {
 	display: none;
 }
+
+.navbar {
+	height: 3rem !important;
+}
+
+.navbar__logo img {
+	height: 3rem;
+}
+
+.navbar__toggle svg {
+	height: 2rem;
+	width: 3rem;
+}
+
+.navbar__items {
+	height: 3rem;
+}
+
+.navbar__items--right {
+	height: 2.8rem;
+}
+
+.navbar__items--right .navbar__link {
+	color: #5b77af; /* Inactive state */
+}
+
+.navbar__items--right .navbar__link--active {
+	color: #345541; /* Active state */
+	border-top-color: #345541;
+}
+
+/* Optionally, add hover effect */
+.navbar__items--right .navbar__link:hover {
+	color: #345541;
+}

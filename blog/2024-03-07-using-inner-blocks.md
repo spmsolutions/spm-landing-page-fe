@@ -2,7 +2,7 @@
 title: Using inner blocks
 description: Various tips and useful features for your project included in Eightshift DevKit.
 slug: using-inner-blocks
-authors: obradovic
+authors: sandra
 date: 2024-03-07
 tags: [eightshift, boilerplate, inner blocks]
 hide_table_of_contents: false

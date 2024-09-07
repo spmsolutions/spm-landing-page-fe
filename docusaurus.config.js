@@ -52,24 +52,24 @@ module.exports = {
 				// 	label: 'Playground',
 				// 	position: 'right',
 				// },
-				// {
-				// 	to: '#about-us',
-				// 	activeBasePath: 'about',
-				// 	label: 'About',
-				// 	position: 'right'
-				// },
-				// {
-				// 	to: '#services',
-				// 	activeBasePath: 'services',
-				// 	label: 'Services',
-				// 	position: 'right'
-				// },
-				// {
-				// 	to: '#contact-us',
-				// 	activeBasePath: 'contact',
-				// 	label: 'Contact',
-				// 	position: 'right'
-				// },
+				{
+					to: '/#about-us',
+					activeBasePath: 'about',
+					label: 'About',
+					position: 'right'
+				},
+				{
+					to: '/#services',
+					activeBasePath: 'services',
+					label: 'Services',
+					position: 'right'
+				},
+				{
+					to: '/#contact-us',
+					activeBasePath: 'contact',
+					label: 'Contact',
+					position: 'right'
+				},
 				{
 					to: '/blog',
 					activeBasePath: 'blog',
@@ -104,13 +104,13 @@ module.exports = {
 			],
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
-		algolia: {
-			appId: 'CWB1S6U3C4',
-			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'infinum_eightshift',
-			startUrls: ['http://localhost:3000', 'http://localhost:3000/blog'],
-			contextualSearch: false,
-		},
+		// algolia: {
+		// 	appId: '7YTJNLX1P8',
+		// 	apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
+		// 	indexName: 'spm_solution_search',
+		// 	startUrls: ['http://localhost:3000', 'http://localhost:3000/blog'],
+		// 	contextualSearch: false,
+		// },
 		prism: {
 			theme: darkTheme,
 			additionalLanguages: ['php', 'scss', 'css'],
@@ -120,11 +120,7 @@ module.exports = {
 			disableSwitch: true,
 			respectPrefersColorScheme: false,
 		},
-		docs: {
-			sidebar: {
-				autoCollapseCategories: true,
-			}
-		},
+		docs: {},
 		trailingSlash: false,
 		onBrokenLinks: 'ignore',
 		onBrokenMarkdownLinks: 'ignore'
@@ -133,10 +129,7 @@ module.exports = {
 		[
 			'@docusaurus/preset-classic',
 			{
-				docs: {
-					sidebarPath: require.resolve('./sidebars.js'),
-					sidebarCollapsible: true,
-				},
+				docs: false,
 				gtag: {
 					trackingID: 'GTM-P5GG5DH',
 					anonymizeIP: true,
@@ -162,15 +155,6 @@ module.exports = {
 		],
 	],
 	plugins: [
-		[
-			'@docusaurus/plugin-content-docs',
-			{
-				id: 'forms',
-				path: 'forms',
-				routeBasePath: 'forms',
-				sidebarPath: require.resolve('./sidebars-forms.js'),
-			},
-		],
 		[
       "docusaurus2-dotenv",
       {

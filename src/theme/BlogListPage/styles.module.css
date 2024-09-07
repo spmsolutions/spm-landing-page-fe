@@ -1,0 +1,26 @@
+.blogPostCard {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+
+.blogPostCardImage {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card__body {
+	padding: 16px;
+}
+
+.card__footer {
+	padding: 16px;
+	background-color: #f9f9f9;
+	text-align: right;
+}
+
+.card__footer .button {
+	margin: 0;
+}
