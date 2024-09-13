@@ -16,7 +16,7 @@ function BlogPageIntro({}) {
                 className='blog-ebook-image'
               />
 							     <div className="email-container">
-            <h2>Get Your Free SEO Checklists</h2>
+            <h2 style={{color: '#345541'}}>Get Your Free SEO Checklists</h2>
             <p style={{margin: '12px 0'}}>Enter your email to get instant access to our SEO checklists and stay updated with our latest SEO tips.</p>
             <div id="mc_embed_signup">
               <form
@@ -81,7 +81,7 @@ function BlogPageIntro({}) {
 							</div>
 							<hr style={{height: '4px', margin: '48px', backgroundColor: '#345541'}}/>
 {/* <CircularImage src="img/monabicon.png" alt="Monab Logo" size={150} /> */}
-     <h1 style={{ margin: '20px auto', textAlign: 'center'}}>Searches into Sales: SEO that Converts!</h1> 
+     <h1 style={{ margin: '20px auto', textAlign: 'center', color: '#345541'}}>Searches into Sales: SEO that Converts!</h1> 
 </div>
   )
 }

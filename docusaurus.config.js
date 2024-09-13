@@ -54,19 +54,19 @@ module.exports = {
 				// },
 				{
 					to: '/#about-us',
-					activeBasePath: 'about',
+					activeBasePath: '/#about-us',
 					label: 'About',
 					position: 'right'
 				},
 				{
 					to: '/#services',
-					activeBasePath: 'services',
+					activeBasePath: '/',
 					label: 'Services',
 					position: 'right'
 				},
 				{
 					to: '/#contact-us',
-					activeBasePath: 'contact',
+					activeBasePath: '/#contact-us',
 					label: 'Contact',
 					position: 'right'
 				},
@@ -104,13 +104,13 @@ module.exports = {
 			],
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
-		// algolia: {
-		// 	appId: '7YTJNLX1P8',
-		// 	apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
-		// 	indexName: 'spm_solution_search',
-		// 	startUrls: ['http://localhost:3000', 'http://localhost:3000/blog'],
-		// 	contextualSearch: false,
-		// },
+		algolia: {
+			appId: '7YTJNLX1P8',
+			apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
+			indexName: 'spm_solution_search',
+			startUrls: ['http://localhost:3000', 'http://localhost:3000/blog'],
+			contextualSearch: false,
+		},
 		prism: {
 			theme: darkTheme,
 			additionalLanguages: ['php', 'scss', 'css'],
