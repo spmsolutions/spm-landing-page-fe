@@ -60,7 +60,7 @@ module.exports = {
 				},
 				{
 					to: '/#services',
-					activeBasePath: '/',
+					activeBasePath: '/#services',
 					label: 'Services',
 					position: 'right'
 				},
