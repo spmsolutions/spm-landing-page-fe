@@ -54,19 +54,19 @@ module.exports = {
 				// },
 				{
 					to: '/#about-us',
-					activeBasePath: 'about',
+					activeBasePath: '/#about-us',
 					label: 'About',
 					position: 'right'
 				},
 				{
 					to: '/#services',
-					activeBasePath: 'services',
+					activeBasePath: '/',
 					label: 'Services',
 					position: 'right'
 				},
 				{
 					to: '/#contact-us',
-					activeBasePath: 'contact',
+					activeBasePath: '/#contact-us',
 					label: 'Contact',
 					position: 'right'
 				},
