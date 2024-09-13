@@ -84,6 +84,7 @@ module.exports = {
 			],
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
+<<<<<<< Updated upstream
 		// algolia: {
 		// 	appId: 'CWB1S6U3C4',
 		// 	apiKey: 'cbae3fc769aee256328548eff1e91c1c',
@@ -91,6 +92,15 @@ module.exports = {
 		// 	startUrls: ['https://eightshift.com', 'https://eightshift.com/docs', 'https://eightshift.com/forms'],
 		// 	contextualSearch: false,
 		// },
+=======
+		algolia: {
+			appId: '7YTJNLX1P8',
+			apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
+			indexName: 'spm_solution_search',
+			startUrls: ['https://www.spm-solution.com', 'https://www.spm-solution.coms/blog'],
+			contextualSearch: false,
+		},
+>>>>>>> Stashed changes
 		prism: {
 			theme: darkTheme,
 			additionalLanguages: ['php', 'scss', 'css'],
