@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_spmsolutions_website=self.webpackChunk_spmsolutions_website||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Tutorials and articles about effective SEO and ultimate SEO practices, offered by spm-solution","authorsListPath":"/blog/authors"}')}}]);
