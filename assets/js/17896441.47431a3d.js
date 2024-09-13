@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_spmsolutions_website=self.webpackChunk_spmsolutions_website||[]).push([[18401],{71608:(s,e,t)=>{t.d(e,{A:()=>i});t(96540);var u=t(25552),n=t(74848);function i(s){return(0,n.jsx)(u.V,{...s})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_spmsolutions_website=self.webpackChunk_spmsolutions_website||[]).push([[81903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Tutorials and articles about Eightshift development kit","authorsListPath":"/blog/authors"}')}}]);
