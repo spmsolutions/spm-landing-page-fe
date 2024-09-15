@@ -28,30 +28,6 @@ module.exports = {
 				src: '/img/logo1tag.svg',
 			},
 			items: [
-				// {
-				// 	to: 'docs/welcome',
-				// 	activeBasePath: 'docs',
-				// 	label: 'DevKit',
-				// 	position: 'right',
-				// },
-				// {
-				// 	to: 'forms/welcome',
-				// 	activeBasePath: 'forms',
-				// 	label: 'Forms',
-				// 	position: 'right',
-				// },
-				// {
-				// 	to: '/devkit-components/',
-				// 	activeBasePath: 'devkit-components',
-				// 	label: 'Components',
-				// 	position: 'right',
-				// },
-				// {
-				// 	to: '/playground/',
-				// 	activeBasePath: 'playground',
-				// 	label: 'Playground',
-				// 	position: 'right',
-				// },
 				{
 					to: '/#about-us',
 					activeBasePath: '/#about-us',
@@ -70,16 +46,10 @@ module.exports = {
 					label: 'Contact',
 					position: 'right'
 				},
-				{
-					to: '/blog',
-					activeBasePath: 'blog',
-					label: 'Blog',
-					position: 'right',
-				},
 				// {
-				// 	to: '/showcase',
-				// 	activeBasePath: 'showcase',
-				// 	label: 'Showcase',
+				// 	to: '/blog',
+				// 	activeBasePath: 'blog',
+				// 	label: 'Blog',
 				// 	position: 'right',
 				// },
 			],
@@ -108,7 +78,7 @@ module.exports = {
 			appId: '7YTJNLX1P8',
 			apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
 			indexName: 'spm_solution_search',
-			startUrls: ['https://www.spm-solution.com', 'https://www.spm-solution.coms/blog'],
+			startUrls: ['https://www.spm-solution.com', 'https://www.spm-solution.com/blog'],
 			contextualSearch: false,
 		},
 		prism: {
