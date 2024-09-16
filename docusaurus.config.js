@@ -75,9 +75,9 @@ module.exports = {
 			copyright: 'Made with ❤️ by SPM Solutions team.',
 		},
 		algolia: {
-			appId: '7YTJNLX1P8',
-			apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
-			indexName: 'spm-solution.tmp',
+			appId: process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_APP_ID,
+			apiKey: process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY,
+			indexName: process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_INDEX_NAME,
 			startUrls: ['https://www.spm-solution.com', 'https://www.spm-solution.com/blog'],
 			contextualSearch: false,
 		},
