@@ -77,7 +77,7 @@ module.exports = {
 		algolia: {
 			appId: '7YTJNLX1P8',
 			apiKey: 'dc21b6df3ba4bc597ce294fff94c077a',
-			indexName: 'spm_solution_search',
+			indexName: 'spm-solution.tmp',
 			startUrls: ['https://www.spm-solution.com', 'https://www.spm-solution.com/blog'],
 			contextualSearch: false,
 		},
